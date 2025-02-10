@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BTN-BGCOLOR: green;
+    --MAIN-BGCOLOR: white;
+    --HEADING-COLOR: black;
+}
+
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    margin-inline: auto
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    background-color: var(--BTN-BGCOLOR)
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
